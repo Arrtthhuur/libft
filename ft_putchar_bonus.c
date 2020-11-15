@@ -1,17 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ft_putchar.c                                       :+:    :+:            */
+/*   ft_putchar_bonus.c                                 :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: abeznik <abeznik@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/10/31 17:13:30 by abeznik       #+#    #+#                 */
-/*   Updated: 2020/10/31 17:35:44 by abeznik       ########   odam.nl         */
+/*   Updated: 2020/11/15 15:03:42 by abeznik       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <unistd.h>
 
 void		ft_putchar(char c)
 {

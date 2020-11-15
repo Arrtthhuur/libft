@@ -6,13 +6,13 @@
 /*   By: abeznik <abeznik@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/11/01 11:50:54 by abeznik       #+#    #+#                 */
-/*   Updated: 2020/11/14 13:29:24 by abeznik       ########   odam.nl         */
+/*   Updated: 2020/11/15 15:03:35 by abeznik       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int	ft_char_set(char c, char const *set)
+static int		ft_char_set(char c, char const *set)
 {
 	size_t	i;
 
@@ -26,7 +26,7 @@ static int	ft_char_set(char c, char const *set)
 	return (0);
 }
 
-char		*ft_strtrim(char const *s1, char const *set)
+char			*ft_strtrim(char const *s1, char const *set)
 {
 	char	*str;
 	char	*s;

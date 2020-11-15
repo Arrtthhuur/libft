@@ -6,13 +6,11 @@
 /*   By: abeznik <abeznik@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/10/26 14:20:05 by abeznik       #+#    #+#                 */
-/*   Updated: 2020/11/14 11:23:31 by abeznik       ########   odam.nl         */
+/*   Updated: 2020/11/15 15:03:58 by abeznik       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-
-int		ft_tolower(int c)
+int			ft_tolower(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 		return (c + 32);

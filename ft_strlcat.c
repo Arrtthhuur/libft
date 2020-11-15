@@ -6,13 +6,13 @@
 /*   By: abeznik <abeznik@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/09/22 13:32:16 by abeznik       #+#    #+#                 */
-/*   Updated: 2020/11/14 10:58:03 by abeznik       ########   odam.nl         */
+/*   Updated: 2020/11/15 15:03:08 by abeznik       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
+size_t		ft_strlcat(char *dst, const char *src, size_t dstsize)
 {
 	size_t	i;
 	size_t	d_len;

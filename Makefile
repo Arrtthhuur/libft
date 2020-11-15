@@ -6,7 +6,7 @@
 #    By: abeznik <abeznik@student.codam.nl>           +#+                      #
 #                                                    +#+                       #
 #    Created: 2020/10/26 15:34:56 by abeznik       #+#    #+#                  #
-#    Updated: 2020/11/15 14:54:56 by abeznik       ########   odam.nl          #
+#    Updated: 2020/11/15 15:40:28 by abeznik       ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,10 +43,7 @@ SRCS	=	ft_memset.c $\
 			ft_putchar_fd.c $\
 			ft_putstr_fd.c $\
 			ft_putendl_fd.c $\
-			ft_putnbr_fd.c $\
-			ft_putchar_bonus.c $\
-			ft_putstr_bonus.c $\
-			ft_abs_bonus.c
+			ft_putnbr_fd.c
 
 OBJS	=	$(SRCS:.c=.o)
 

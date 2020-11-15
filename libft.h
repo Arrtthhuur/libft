@@ -6,7 +6,7 @@
 /*   By: abeznik <abeznik@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/10/26 15:57:43 by abeznik       #+#    #+#                 */
-/*   Updated: 2020/11/15 10:35:47 by abeznik       ########   odam.nl         */
+/*   Updated: 2020/11/15 15:47:23 by abeznik       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,6 @@
 
 # include <stdlib.h>
 # include <unistd.h>
-# include <stddef.h>
-# include <stdio.h>
 
 void			*ft_memset(void *b, int c, size_t len);
 
@@ -34,9 +32,9 @@ int				ft_memcmp(const void *s1, const void *s2, size_t n);
 
 size_t			ft_strlen(const char *s);
 
-size_t			ft_strlcpy(char *dst, const char *src, size_t size);
+size_t			ft_strlcpy(char *dst, const char *src, size_t dstsize);
 
-size_t			ft_strlcat(char *dst, const char *src, size_t size);
+size_t			ft_strlcat(char *dst, const char *src, size_t dstsize);
 
 char			*ft_strchr(const char *s, int c);
 
@@ -86,11 +84,5 @@ void			ft_putstr_fd(char *s, int fd);
 void			ft_putendl_fd(char *s, int fd);
 
 void			ft_putnbr_fd(int n, int fd);
-
-void			ft_putstr(char *str);
-
-void			ft_putchar(char c);
-
-int				ft_abs(int nb);
 
 #endif

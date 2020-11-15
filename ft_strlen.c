@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_strlen.c                                        :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: abeznik <marvin@codam.nl>                    +#+                     */
+/*   By: abeznik <abeznik@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/10/26 13:47:55 by abeznik       #+#    #+#                 */
-/*   Updated: 2020/11/08 09:04:29 by abeznik       ########   odam.nl         */
+/*   Created: 2020/11/15 15:54:18 by abeznik       #+#    #+#                 */
+/*   Updated: 2020/11/15 15:54:20 by abeznik       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

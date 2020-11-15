@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_putchar_fd.c                                    :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: ldideric <ldideric@student.codam.nl>         +#+                     */
+/*   By: abeznik <abeznik@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/10/31 16:56:49 by ldideric      #+#    #+#                 */
-/*   Updated: 2020/11/08 12:20:27 by abeznik       ########   odam.nl         */
+/*   Created: 2020/11/15 15:54:04 by abeznik       #+#    #+#                 */
+/*   Updated: 2020/11/15 15:54:06 by abeznik       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

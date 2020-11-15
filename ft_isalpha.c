@@ -3,10 +3,10 @@
 /*                                                        ::::::::            */
 /*   ft_isalpha.c                                       :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: ldideric <ldideric@student.codam.nl>         +#+                     */
+/*   By: abeznik <abeznik@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/10/26 14:14:00 by abeznik       #+#    #+#                 */
-/*   Updated: 2020/11/15 15:30:49 by abeznik       ########   odam.nl         */
+/*   Created: 2020/11/15 15:53:46 by abeznik       #+#    #+#                 */
+/*   Updated: 2020/11/15 15:53:49 by abeznik       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 

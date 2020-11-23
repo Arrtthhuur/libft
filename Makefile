@@ -6,7 +6,7 @@
 #    By: abeznik <abeznik@student.codam.nl>           +#+                      #
 #                                                    +#+                       #
 #    Created: 2020/10/26 15:34:56 by abeznik       #+#    #+#                  #
-#    Updated: 2020/11/15 15:40:28 by abeznik       ########   odam.nl          #
+#    Updated: 2020/11/23 11:15:07 by abeznik       ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,29 +43,53 @@ SRCS	=	ft_memset.c $\
 			ft_putchar_fd.c $\
 			ft_putstr_fd.c $\
 			ft_putendl_fd.c $\
-			ft_putnbr_fd.c
+			ft_putnbr_fd.c $\
+			ft_putchar.c $\
+			ft_putstr.c $\
+			ft_putnbr.c
 
-OBJS	=	$(SRCS:.c=.o)
+BONUS_SRCS	=	ft_lstnew.c $\
+				ft_lstadd_front.c $\
+				ft_lstsize $\
+				ft_lstlast.c $\
+				ft_lstadd_back.c $\
+				ft_lstdelone.c $\
+				ft_lstclear.c $\
+				ft_lstiter.c $\
+				ft_lstmap
 
-MAIN	=	$(MAINS:.c=.o)
+REG_OBJS	=	$(SRCS:.c=.o)
 
-CC		=	gcc
-RM		=	rm -f
-CFLAGS	=	-Wall -Wextra -Werror -I.
+BONUS_OBJS	=	$(BONUS_SRCS:.c=.o)
 
-NAME	=	libft.a
+MAIN		=	$(MAINS:.c=.o)
+
+CC			=	gcc
+RM			=	rm -f
+CFLAGS		=	-Wall -Wextra -Werror -I.
+
+NAME		=	libft.a
+
+ifdef WITH_BONUS
+OBJ_FILES = $(REG_OBJS) $(BONUS_OBJS)
+else
+OBJ_FILES = $(REG_OBJS)
+endif
 
 all:		$(NAME)
 
-$(NAME): 	$(OBJS)
-	ar cr $(NAME) $(OBJS)
+$(NAME): 	$(REG_OBJS)
+	ar cr $(NAME) $(REG_OBJS)
+
+bonus:
+	$(MAKE) WITH_BONUS=1 all
 
 clean:
-	$(RM) $(OBJS)
+	$(RM) $(REG_OBJS) $(BONUS_OBJS)
 
 fclean:		clean
 	$(RM) $(NAME)
 
 re:			fclean all
 
-.PHONY:		all clean fclean mclean re
+.PHONY:		all clean fclean re bonus
